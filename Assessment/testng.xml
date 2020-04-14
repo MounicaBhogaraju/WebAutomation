@@ -6,17 +6,11 @@
     <classes>
       <class name="WebAutomation.Assessment.App"/>
     </classes>
-  </test> <!-- Test-Chrome -->
-  <!-- <test name="Test-firefox">
+  </test>  <!-- Test-Chrome -->
+  <test name="Test-firefox">
   	<parameter name="browser" value="firefox"></parameter>
     <classes>
       <class name="WebAutomation.Assessment.App"/>
     </classes>
-  </test> --> <!-- Test-Firefox -->
-  <test name="Test-IE">
-  	<parameter name="browser" value="ie"></parameter>
-    <classes>
-      <class name="WebAutomation.Assessment.App"/>
-    </classes>
-  </test> <!-- Test-IE -->
+  </test> <!-- Test-Firefox -->
 </suite> <!-- Suite -->

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17381" started-at="2020-04-13T22:44:39 AEST" finished-at="2020-04-13T22:44:56 AEST">
+  <suite name="Suite" duration-ms="157007" started-at="2020-04-14T15:14:51 AEST" finished-at="2020-04-14T15:17:28 AEST">
     <groups>
     </groups>
-    <test name="Test-Chrome" duration-ms="16158" started-at="2020-04-13T22:44:39 AEST" finished-at="2020-04-13T22:44:55 AEST">
+    <test name="Test-Chrome" duration-ms="86881" started-at="2020-04-14T15:14:51 AEST" finished-at="2020-04-14T15:16:18 AEST">
       <class name="WebAutomation.Assessment.App">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:WebAutomation.Assessment.App@578486a3]" name="openBrowser" is-config="true" duration-ms="3083" started-at="2020-04-13T22:44:39 AEST" finished-at="2020-04-13T22:44:42 AEST">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:WebAutomation.Assessment.App@32709393]" name="openBrowser" is-config="true" duration-ms="6329" started-at="2020-04-14T15:14:51 AEST" finished-at="2020-04-14T15:14:57 AEST">
           <params>
             <param index="0">
               <value>
@@ -18,29 +18,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:WebAutomation.Assessment.App@578486a3]" name="test" duration-ms="12775" started-at="2020-04-13T22:44:42 AEST" finished-at="2020-04-13T22:44:55 AEST">
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
+        <test-method status="FAIL" signature="test()[pri:0, instance:WebAutomation.Assessment.App@32709393]" name="test" duration-ms="78365" started-at="2020-04-14T15:14:57 AEST" finished-at="2020-04-14T15:16:16 AEST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element not visible
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="address-book-entry-0"]/div[2]/span/a"}
   (Session info: chrome=78.0.3904.87)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BORL90071', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\BhogaraM\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54721}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
-Session ID: 50d46560ec480b50a4db430edeb4d64f]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\BhogaraM\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57674}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
+Session ID: 97f625350dfd20282a31ba1859173e4f
+*** Element info: {Using=xpath, value=//*[@id="address-book-entry-0"]/div[2]/span/a}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="address-book-entry-0"]/div[2]/span/a"}
   (Session info: chrome=78.0.3904.87)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BORL90071', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\BhogaraM\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54721}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
-Session ID: 50d46560ec480b50a4db430edeb4d64f
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\BhogaraM\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57674}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
+Session ID: 97f625350dfd20282a31ba1859173e4f
+*** Element info: {Using=xpath, value=//*[@id="address-book-entry-0"]/div[2]/span/a}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -53,9 +57,14 @@ at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttp
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at WebAutomation.Assessment.App.test(App.java:54)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at WebAutomation.Assessment.Utils.FindElement(Utils.java:96)
+at WebAutomation.Assessment.Utils.Click(Utils.java:84)
+at WebAutomation.Assessment.Generic.ExtractCheckoutItemInfo(Generic.java:89)
+at WebAutomation.Assessment.App.test(App.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -86,172 +95,38 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:WebAutomation.Assessment.App@578486a3]" name="CloseBrowser" is-config="true" duration-ms="237" started-at="2020-04-13T22:44:55 AEST" finished-at="2020-04-13T22:44:55 AEST">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:WebAutomation.Assessment.App@32709393]" name="CloseBrowser" is-config="true" duration-ms="2113" started-at="2020-04-14T15:16:16 AEST" finished-at="2020-04-14T15:16:18 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- WebAutomation.Assessment.App -->
     </test> <!-- Test-Chrome -->
-    <test name="Test-IE" duration-ms="1148" started-at="2020-04-13T22:44:55 AEST" finished-at="2020-04-13T22:44:56 AEST">
+    <test name="Test-firefox" duration-ms="69948" started-at="2020-04-14T15:16:18 AEST" finished-at="2020-04-14T15:17:28 AEST">
       <class name="WebAutomation.Assessment.App">
-        <test-method status="FAIL" signature="openBrowser(java.lang.String)[pri:0, instance:WebAutomation.Assessment.App@1f554b06]" name="openBrowser" is-config="true" duration-ms="1118" started-at="2020-04-13T22:44:55 AEST" finished-at="2020-04-13T22:44:56 AEST">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:WebAutomation.Assessment.App@7f13d6e]" name="openBrowser" is-config="true" duration-ms="9138" started-at="2020-04-14T15:16:18 AEST" finished-at="2020-04-14T15:16:27 AEST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BORL90071', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: InternetExplorerDriver
-remote stacktrace: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BORL90071', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: InternetExplorerDriver
-remote stacktrace: 
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
-at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:213)
-at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:150)
-at WebAutomation.Assessment.App.openBrowser(App.java:33)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="test()[pri:0, instance:WebAutomation.Assessment.App@1f554b06]" name="test" duration-ms="0" started-at="2020-04-13T22:44:56 AEST" finished-at="2020-04-13T22:44:56 AEST">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BORL90071', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: InternetExplorerDriver
-remote stacktrace: ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BORL90071', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: InternetExplorerDriver
-remote stacktrace: 
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
-at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:213)
-at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:150)
-at WebAutomation.Assessment.App.openBrowser(App.java:33)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method status="PASS" signature="test()[pri:0, instance:WebAutomation.Assessment.App@7f13d6e]" name="test" duration-ms="58122" started-at="2020-04-14T15:16:27 AEST" finished-at="2020-04-14T15:17:25 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="SKIP" signature="CloseBrowser()[pri:0, instance:WebAutomation.Assessment.App@1f554b06]" name="CloseBrowser" is-config="true" duration-ms="-1586781896696" started-at="2020-04-13T22:44:56 AEST" finished-at="1970-01-01T10:00:00 AEST">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:WebAutomation.Assessment.App@7f13d6e]" name="CloseBrowser" is-config="true" duration-ms="2684" started-at="2020-04-14T15:17:25 AEST" finished-at="2020-04-14T15:17:28 AEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- WebAutomation.Assessment.App -->
-    </test> <!-- Test-IE -->
+    </test> <!-- Test-firefox -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -13,16 +13,4 @@
       </class> <!-- WebAutomation.Assessment.App -->
     </classes>
   </test> <!-- Test-Chrome(failed) -->
-  <test thread-count="5" name="Test-IE(failed)">
-    <parameter name="browser" value="ie"/>
-    <classes>
-      <class name="WebAutomation.Assessment.App">
-        <methods>
-          <include name="CloseBrowser"/>
-          <include name="openBrowser"/>
-          <include name="test"/>
-        </methods>
-      </class> <!-- WebAutomation.Assessment.App -->
-    </classes>
-  </test> <!-- Test-IE(failed) -->
 </suite> <!-- Failed suite [Suite] -->
