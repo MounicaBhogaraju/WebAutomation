@@ -1,4 +1,4 @@
-# WebAutomation
+# Web Automation
 
 Test scenario: Verify checkout screen has item added to cart from item page
 Steps:
